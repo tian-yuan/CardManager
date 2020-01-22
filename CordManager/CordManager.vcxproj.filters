@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{23743d79-81e1-4377-861b-0027570fbb4a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3bc76976-1a6a-4fba-ae4f-28461c738ebd}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d9326795-7ef3-4a0d-8a91-d7b0694f6863}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="SoUI Resource">
+      <UniqueIdentifier>{d57455bd-c1e8-4918-8900-0ce34e94c69e}</UniqueIdentifier>
+      <Extensions>idx;xml;png;gif;jpg;ico;lua;bmp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="license.txt" />
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CordManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trayicon\SShellNotifyIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trayicon\SShellNofityHwnd2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CordManager.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trayicon\SShellNotifyIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trayicon\SShellNofityHwnd2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\soui_res.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="uires\uidef\init.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\values\color.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\values\skin.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\values\string.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\xml\dlg_main.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\xml\menu_tray.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="uires\image\soui.ico">
+      <Filter>SoUI Resource</Filter>
+    </Image>
+    <Image Include="uires\image\traymenu_icons.png">
+      <Filter>SoUI Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="uires\uires.idx">
+      <Filter>SoUI Resource</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
