@@ -16,7 +16,14 @@
   <IMG>
     <file name="traymenu_icons" path="image\traymenu_icons.png"/>
     <file name="ID_CAPTION_TAB_CARD_MANAGER" path="image\TitleBar\tab_disk.png"/>
-
+    <!-- System -->
+    <file name="ID_PNG_BG" path="image\Window\windowBkg_mainPanel.png"/>
+    <file name="ID_SYS_BTN_CLOSE" path="image\SysButton\sys_btn_close.png"/>
+    <file name="ID_SYS_BTN_MAX" path="image\SysButton\sys_btn_max.png"/>
+    <file name="ID_SYS_BTN_RESTORE" path="image\SysButton\sys_btn_restore.png"/>
+    <file name="ID_SYS_BTN_MIN" path="image\SysButton\sys_btn_min.png"/>
+    <file name="ID_MENU_BTN_MSG" path="image\SysButton\menubtn_msg_non.png"/>
+    <file name="ID_MENU_BTN_SET" path="image\SysButton\menubtn_set.png"/>
     <!-- List Ctrl -->
     <file name="ID_LIST_HEADER_BKG" path="image\CardList\header_bkg.png"/>
     <file name="ID_LIST_HEADER_ARROW" path="image\CardList\header_arrow.png"/>
@@ -26,7 +33,19 @@
     <file name="ID_LIST_DOWNLOAD" path="image\CardList\list_down.png"/>
     <file name="ID_LIST_SHARE" path="image\CardList\list_share.png"/>
     <file name="ID_LIST_MORE" path="image\CardList\list_more.png"/>
-
+    
+    <!-- Title Bar -->
+    <file name="ID_TBAR_VIP" path="image\TitleBar\vip_open.png"/>
+    <file name="ID_CAPTION_BANNER" path="image\TitleBar\title_banner.png"/>
+    <file name="ID_CAPTION_PROG_FRG" path="image\TitleBar\progress_frg.png"/>
+    <file name="ID_CAPTION_PROG_BKG" path="image\TitleBar\progress_bkg.png"/>
+    <file name="ID_CAPTION_HEAD" path="image\TitleBar\head.png"/>
+    <file name="ID_CAPTION_TAB_BKG" path="image\TitleBar\tab_bkg.png"/>
+    <file name="ID_CAPTION_TAB_DISK" path="image\TitleBar\tab_disk.png"/>
+    <file name="ID_CAPTION_TAB_SHARE" path="image\TitleBar\tab_share.png"/>
+    <file name="ID_CAPTION_TAB_SAFE" path="image\TitleBar\tab_safe.png"/>
+    <file name="ID_CAPTION_TAB_BOX" path="image\TitleBar\tab_box.png"/>
+    
     <!-- Status bar -->
     <file name="ID_STATUS_BAR_BKG" path="image\StatusBar\bottompanel_bkg.png"/>
     <file name="ID_STATUS_BAR_RB" path="image\StatusBar\bottomRight.png"/>

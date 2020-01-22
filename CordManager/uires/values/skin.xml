@@ -2,13 +2,39 @@
 
 <skin>
   	<imglist name="skin_traymenu_icons"	src="img:traymenu_icons" states="9"/>
+
+  <!-- System -->
+  <imgframe name="_skin.bg" src="IMG:ID_PNG_BG" left="5" top="99" right="5" bottom="7"/>
+  <imglist name="_skin.btn.close" src="IMG:ID_SYS_BTN_CLOSE" states="3" vertical="1"/>
+  <imglist name="_skin.btn.max" src="IMG:ID_SYS_BTN_MAX" states="3" vertical="1"/>
+  <imglist name="_skin.btn.restore" src="IMG:ID_SYS_BTN_RESTORE" states="3" vertical="1"/>
+  <imglist name="_skin.btn.min" src="IMG:ID_SYS_BTN_MIN" states="3" vertical="1"/>
+  <imglist name="_skin.btn.msg" src="IMG:ID_MENU_BTN_MSG" states="3" vertical="1"/>
+  <imglist name="_skin.btn.set" src="IMG:ID_MENU_BTN_SET" states="3" vertical="1"/>
+  <button name="skin_btn_blank" alpha="1"/>
+  
 	<!-- Title bar -->
 	<imglist name="skin_tab_card_manager" src="IMG:ID_CAPTION_TAB_CARD_MANAGER" states="1"/>
 
 	<!-- Card type -->
 	<imgframe name="skin_card_type_bkg" src="CARDTYPE:ID_CARD_TYPE_BKG" states="1" right="1" />
 	<imglist name="skin_card_type_all" src="CARDTYPE:ID_CARD_TYPE_ALL" states="1" />
+  <imglist name="skin_card_type_img" src="CARDTYPE:ID_CARD_TYPE_IMG" states="1" />
+  <imglist name="skin_card_type_doc" src="CARDTYPE:ID_CARD_TYPE_DOC" states="1" />
+  <imglist name="skin_card_type_video" src="CARDTYPE:ID_CARD_TYPE_VIDEO" states="1" />
+  <imglist name="skin_card_type_seed" src="CARDTYPE:ID_CARD_TYPE_SEED" states="1" />
+  <imglist name="skin_card_type_music" src="CARDTYPE:ID_CARD_TYPE_MUSIC" states="1" />
+  <imglist name="skin_card_type_app" src="CARDTYPE:ID_CARD_TYPE_APP" states="1" />
+  <imglist name="skin_card_type_other" src="CARDTYPE:ID_CARD_TYPE_OTHER" states="1" />
+  <imglist name="skin_card_type_share" src="CARDTYPE:ID_CARD_TYPE_SHARE" states="1" />
 
+  <!-- Tab -->
+  <imglist name="skin_tab_bkg" src="IMG:ID_CAPTION_TAB_BKG" states="3"/>
+  <imglist name="skin_tab_disk" src="IMG:ID_CAPTION_TAB_DISK" states="1"/>
+  <imglist name="skin_tab_share" src="IMG:ID_CAPTION_TAB_SHARE" states="1"/>
+  <imglist name="skin_tab_safe" src="IMG:ID_CAPTION_TAB_SAFE" states="1"/>
+  <imglist name="skin_tab_box" src="IMG:ID_CAPTION_TAB_BOX" states="1"/>
+  
 	<!-- List Ctrl -->
     <imgframe name="skin_list_header_bkg" src="IMG:ID_LIST_HEADER_BKG" states="3" right="1"/>
     <imglist name="skin_list_header_arrow" src="IMG:ID_LIST_HEADER_ARROW" states="2"/>

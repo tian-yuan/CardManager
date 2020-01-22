@@ -38,6 +38,18 @@
     <ClCompile Include="trayicon\SShellNofityHwnd2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SIconButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRadioEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="STileViewEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\soui\controls.extend\SRadioBox2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="CordManager.rc">
@@ -59,6 +71,15 @@
     </ClInclude>
     <ClInclude Include="trayicon\SShellNofityHwnd2.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SIconButton.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SRadioEx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STileViewEx.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -83,6 +104,9 @@
       <Filter>SoUI Resource</Filter>
     </Xml>
     <Xml Include="uires\xml\menu_tray.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\xml\page_card_manager.xml">
       <Filter>SoUI Resource</Filter>
     </Xml>
   </ItemGroup>

@@ -194,14 +194,18 @@
     <Text Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\soui\controls.extend\SRadioBox2.cpp" />
     <ClCompile Include="CordManager.cpp" />
     <ClCompile Include="MainDlg.cpp" />
+    <ClCompile Include="SIconButton.cpp" />
+    <ClCompile Include="SRadioEx.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="STileViewEx.cpp" />
     <ClCompile Include="trayicon\SShellNofityHwnd2.cpp" />
     <ClCompile Include="trayicon\SShellNotifyIcon.cpp" />
   </ItemGroup>
@@ -211,7 +215,10 @@
   <ItemGroup>
     <ClInclude Include="MainDlg.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="SIconButton.h" />
+    <ClInclude Include="SRadioEx.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="STileViewEx.h" />
     <ClInclude Include="trayicon\SShellNofityHwnd2.h" />
     <ClInclude Include="trayicon\SShellNotifyIcon.h" />
   </ItemGroup>
@@ -238,6 +245,7 @@
     <Xml Include="uires\values\string.xml" />
     <Xml Include="uires\xml\dlg_main.xml" />
     <Xml Include="uires\xml\menu_tray.xml" />
+    <Xml Include="uires\xml\page_card_manager.xml" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="uires\image\soui.ico" />
