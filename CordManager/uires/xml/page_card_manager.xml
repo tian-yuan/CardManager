@@ -1,0 +1,60 @@
+<include>
+  <window pos="0,[0,-0,-0" colorBkgnd="#FFFFFF">
+    <!-- Content -->
+    <window pos="1,[0,-1,-36">
+      <window name="wnd_left_file_type" pos="0,0,@120,-0" display="0" skin="skin_card_type_bkg">
+        <radioex pos="0,2,-1,@22" id="20000" name="radioex_0" skin="skin_list_item_bkg" checked="1">
+          <img pos="18,3" skin="skin_card_type_all" />
+          <text pos="[5,0,-0,-0" class="cls_cardtype_btn">全部功能</text>
+        </radioex>
+        <radioex pos="0,[4,-1,@22" id="20001" name="radioex_1" skin="skin_list_item_bkg">
+          <img pos="36,3" skin="skin_card_type_img" />
+          <text pos="[5,0,-0,-0" class="cls_cardtype_btn">初始化</text>
+        </radioex>
+        <radioex pos="0,[4,-1,@22" id="20002" name="radioex_2" skin="skin_list_item_bkg">
+          <img pos="36,3" skin="skin_card_type_doc" />
+          <text pos="[5,0,-0,-0" class="cls_cardtype_btn">制作设置卡</text>
+        </radioex>
+        <radioex pos="0,[4,-1,@22" id="20003" name="radioex_3" skin="skin_list_item_bkg">
+          <img pos="36,3" skin="skin_card_type_video" />
+          <text pos="[5,0,-0,-0" class="cls_cardtype_btn">制作清零卡</text>
+        </radioex>
+        <radioex pos="0,[4,-1,@22" id="20004" name="radioex_4" skin="skin_list_item_bkg">
+          <img pos="36,3" skin="skin_card_type_seed" />
+          <text pos="[5,0,-0,-0" class="cls_cardtype_btn">制作用户卡</text>
+        </radioex>
+        <radioex pos="0,[4,-1,@22" id="20005" name="radioex_5" skin="skin_list_item_bkg">
+          <img pos="36,3" skin="skin_card_type_music" />
+          <text pos="[5,0,-0,-0" class="cls_cardtype_btn">用户充值</text>
+        </radioex>
+        <radioex pos="0,[4,-1,@22" id="20006" name="radioex_6" skin="skin_list_item_bkg">
+          <img pos="36,3" skin="skin_card_type_app" />
+          <text pos="[5,0,-0,-0" class="cls_cardtype_btn">用户换卡</text>
+        </radioex>
+        <radioex pos="0,[4,-1,@22" id="20007" name="radioex_7" skin="skin_list_item_bkg">
+          <img pos="36,3" skin="skin_card_type_other" />
+          <text pos="[5,0,-0,-0" class="cls_cardtype_btn">用户退卡</text>
+        </radioex>
+        <radioex pos="0,[4,-1,@22" id="20008" name="radioex_8" skin="skin_list_item_bkg">
+          <img pos="18,3" skin="skin_card_type_share" />
+          <text pos="[5,0,-0,-0" class="cls_cardtype_btn">挂失</text>
+        </radioex>
+        <radioex pos="0,[4,-1,@22" id="20008" name="radioex_9" skin="skin_list_item_bkg">
+          <img pos="18,3" skin="skin_card_type_share" />
+          <text pos="[5,0,-0,-0" class="cls_cardtype_btn">卡冲正</text>
+        </radioex>
+      </window>
+      <tabctrl name="tab_card" pos="[0,0,-0,-0" animateSteps="0" tabHeight="0" cursel="0">
+        <page title="卡管理">
+          <text pos="|0,|0" offset="-0.5,-0.5">卡管理</text>
+        </page>
+      </tabctrl>
+    </window>
+    <!-- Status Bar -->
+    <window pos="0,-35,-0,-0" skin="skin_status_bar_bkg">
+      <img pos="-11,-11" skin="skin_status_bar_rb" />
+      <text pos="20,8" class="cls_toolbar_btn">20 项</text>
+    </window>
+  </window>
+</include>
+

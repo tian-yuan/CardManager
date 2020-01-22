@@ -10,7 +10,18 @@ translucent="1"
       <imgbtn name="btn_max" skin="_skin.sys.btn.maximize"  pos="-83,0" animate="1" />
       <imgbtn name="btn_restore" skin="_skin.sys.btn.restore"  pos="-83,0" show="0" animate="1" />
       <imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-121,0" animate="1" />
+      <group pos="[2,2,@360,@95" colorLine1="#0795F4" colorLine2="#0795F4" headerHeight="0">
+        <radioex pos="0,0" id="10000" name="radioex_1" checked="1" skin="skin_tab_bkg">
+          <img pos="22,17" skin="skin_tab_card_manager" />
+          <text pos="0,65,-0,-0" class="cls_titlebar_tab">卡管理</text>
+        </radioex>
+      </group>
     </caption>
+    <tabctrl name="tab_main" pos="1,[0,-1,-1" animateSteps="10" tabHeight="0" cursel="0">
+      <page title="卡管理">
+        <include src="LAYOUT:PAGE_CARD_MANAGER"/>
+      </page>
+    </tabctrl>
     <window pos="5,[2,-5,-5">
       <text pos="|0,|0" offset="-0.5,-0.5">这是一个由SOUI向导生成的APP框架</text>
     </window>

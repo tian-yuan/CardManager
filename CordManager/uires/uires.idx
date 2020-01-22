@@ -4,6 +4,7 @@
   </UIDEF>
   <LAYOUT>
     <file name="XML_MAINWND" path="xml\dlg_main.xml"/>
+    <file name="PAGE_CARD_MANAGER" path="xml\page_card_manager.xml"/>
   </LAYOUT>
   
   <values>
@@ -14,10 +15,40 @@
 
   <IMG>
     <file name="traymenu_icons" path="image\traymenu_icons.png"/>
+    <file name="ID_CAPTION_TAB_CARD_MANAGER" path="image\TitleBar\tab_disk.png"/>
+
+    <!-- List Ctrl -->
+    <file name="ID_LIST_HEADER_BKG" path="image\CardList\header_bkg.png"/>
+    <file name="ID_LIST_HEADER_ARROW" path="image\CardList\header_arrow.png"/>
+    <file name="ID_LIST_SELECT_RANGE" path="image\CardList\select_range.png"/>
+    <file name="ID_LIST_ITEM_BKG" path="image\CardList\list_item_bkg.png"/>
+    <file name="ID_CHECK_BOX" path="image\CheckBox\check_skin.png"/>
+    <file name="ID_LIST_DOWNLOAD" path="image\CardList\list_down.png"/>
+    <file name="ID_LIST_SHARE" path="image\CardList\list_share.png"/>
+    <file name="ID_LIST_MORE" path="image\CardList\list_more.png"/>
+
+    <!-- Status bar -->
+    <file name="ID_STATUS_BAR_BKG" path="image\StatusBar\bottompanel_bkg.png"/>
+    <file name="ID_STATUS_BAR_RB" path="image\StatusBar\bottomRight.png"/>
+    <file name="ID_STATUS_BAR_TOOL" path="image\StatusBar\status_bar_ico_tool.png"/>
+    <file name="ID_STATUS_BAR_BACKUP" path="image\StatusBar\backup.png"/>
+    <file name="ID_STATUS_BAR_LOCK" path="image\StatusBar\lock.png"/>
   </IMG>
   <ICON>
     <file name="ICON_LOGO"  path="image\soui.ico"/>
   </ICON>
+  <CARDTYPE>
+    <file name="ID_CARD_TYPE_BKG" path="image\CardTypePanel\card_bkg.png" />
+    <file name="ID_CARD_TYPE_DOC" path="image\CardTypePanel\card_doc.png" />
+    <file name="ID_CARD_TYPE_ALL" path="image\CardTypePanel\card_all.png" />
+    <file name="ID_CARD_TYPE_APP" path="image\CardTypePanel\card_app.png" />
+    <file name="ID_CARD_TYPE_IMG" path="image\CardTypePanel\card_img.png" />
+    <file name="ID_CARD_TYPE_MUSIC" path="image\CardTypePanel\card_music.png" />
+    <file name="ID_CARD_TYPE_OTHER" path="image\CardTypePanel\card_other.png" />
+    <file name="ID_CARD_TYPE_SEED" path="image\CardTypePanel\card_seed.png" />
+    <file name="ID_CARD_TYPE_SHARE" path="image\CardTypePanel\card_share.png" />
+    <file name="ID_CARD_TYPE_VIDEO" path="image\CardTypePanel\card_video.png" />
+  </CARDTYPE>
   <SMENU>
     <file name="menu_tray" path="xml\menu_tray.xml"/>
   </SMENU>

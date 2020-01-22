@@ -2,4 +2,27 @@
 
 <skin>
   	<imglist name="skin_traymenu_icons"	src="img:traymenu_icons" states="9"/>
-	</skin>
+	<!-- Title bar -->
+	<imglist name="skin_tab_card_manager" src="IMG:ID_CAPTION_TAB_CARD_MANAGER" states="1"/>
+
+	<!-- Card type -->
+	<imgframe name="skin_card_type_bkg" src="CARDTYPE:ID_CARD_TYPE_BKG" states="1" right="1" />
+	<imglist name="skin_card_type_all" src="CARDTYPE:ID_CARD_TYPE_ALL" states="1" />
+
+	<!-- List Ctrl -->
+    <imgframe name="skin_list_header_bkg" src="IMG:ID_LIST_HEADER_BKG" states="3" right="1"/>
+    <imglist name="skin_list_header_arrow" src="IMG:ID_LIST_HEADER_ARROW" states="2"/>
+    <imgframe name="skin_list_select_range" src="IMG:ID_LIST_SELECT_RANGE" margin-x="1" margin-y="1"/>
+    <imgframe name="skin_list_item_bkg" src="IMG:ID_LIST_ITEM_BKG" states="3" margin-x="2" margin-y="2"/>
+    <imgframe name="skin_check_box" src="IMG:ID_CHECK_BOX" states="6"/>
+    <imgframe name="skin_list_btn_download" src="IMG:ID_LIST_DOWNLOAD" states="3"/>
+    <imgframe name="skin_list_btn_share" src="IMG:ID_LIST_SHARE" states="3"/>
+    <imgframe name="skin_list_btn_more" src="IMG:ID_LIST_MORE" states="3"/>
+
+	<!-- Status bar -->
+    <imglist name="skin_status_bar_bkg" src="IMG:ID_STATUS_BAR_BKG"/>
+    <imglist name="skin_status_bar_rb" src="IMG:ID_STATUS_BAR_RB"/>
+    <imglist name="skin_status_bar_tool" src="IMG:ID_STATUS_BAR_TOOL" states="3"/>
+    <imglist name="gif_status_backup" src="IMG:ID_STATUS_BAR_BACKUP" states="3"/>
+    <imglist name="gif_status_lock" src="IMG:ID_STATUS_BAR_LOCK" states="3"/>
+</skin>
