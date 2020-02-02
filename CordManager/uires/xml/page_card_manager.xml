@@ -36,11 +36,11 @@
           <text pos="[5,0,-0,-0" class="cls_cardtype_btn">用户退卡</text>
         </radioex>
         <radioex pos="0,[4,-1,@22" id="20008" name="radioex_8" skin="skin_list_item_bkg">
-          <img pos="18,3" skin="skin_card_type_share" />
+          <img pos="36,3" skin="skin_card_type_other" />
           <text pos="[5,0,-0,-0" class="cls_cardtype_btn">挂失</text>
         </radioex>
         <radioex pos="0,[4,-1,@22" id="20008" name="radioex_9" skin="skin_list_item_bkg">
-          <img pos="18,3" skin="skin_card_type_share" />
+          <img pos="36,3" skin="skin_card_type_other" />
           <text pos="[5,0,-0,-0" class="cls_cardtype_btn">卡冲正</text>
         </radioex>
       </window>
