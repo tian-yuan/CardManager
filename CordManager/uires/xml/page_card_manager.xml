@@ -45,8 +45,46 @@
         </radioex>
       </window>
       <tabctrl name="tab_card" pos="[0,0,-0,-0" animateSteps="0" tabHeight="0" cursel="0">
-        <page title="卡管理">
-          <text pos="|0,|0" offset="-0.5,-0.5">卡管理</text>
+        <page title="初始化">
+          <text pos="10,[5">平台地址(ip:port)：</text><edit name="platform_addr">127.0.0.1:8080</edit>
+          <text pos="10,[5">商户私钥：</text><edit name="custom_secret"></edit>
+        </page>
+        <page title="制作设置卡">
+          <text pos="10,[5">区号：</text><edit name="card_set_region"></edit>
+          <text pos="10,[5">常数：</text><edit name="card_set_const"></edit>
+          <text pos="10,[5">报警下限（元）：</text><edit name="card_set_alarm_floor"></edit>
+		  <text pos="10,[5">电价（元/度）：</text><edit name="card_set_elec_price"></edit>
+		  <text pos="10,[5">水价（元/m3）：</text><edit name="card_set_water_price"></edit>
+		  <text pos="10,[5">控制器ID：</text><edit name="card_set_control_id"></edit>
+		  <text pos="10,[5">DTU ID：</text><edit name="card_set_dtu_id"></edit>
+		  <text pos="10,[5">端口：</text><edit name="card_set_port"></edit>
+		  <text pos="10,[5">IP：</text><edit name="card_set_ip"></edit>
+		  <text pos="10,[5">定义区号：</text><edit name="card_set_define_region"></edit>
+		  <text pos="10,[5">流量底数：</text><edit name="card_set_flow_floor"></edit>
+		  <text pos="10,[5">流量常数：</text><edit name="card_set_flow_const"></edit>
+		  <text pos="10,[5">流量计类型：</text><edit name="card_set_flow_type"></edit>
+		  <button pos="-80,0,-0,25" name="btn_card_set_make">制作</button>
+        </page>
+        <page title="制作清零卡">
+          <text pos="|0,|0" offset="-0.5,-0.5">制作清零卡</text>
+        </page>
+        <page title="制作用户卡">
+          <text pos="|0,|0" offset="-0.5,-0.5">制作用户卡</text>
+        </page>
+        <page title="用户充值">
+          <text pos="|0,|0" offset="-0.5,-0.5">用户充值</text>
+        </page>
+        <page title="用户换卡">
+          <text pos="|0,|0" offset="-0.5,-0.5">用户换卡</text>
+        </page>
+        <page title="用户退卡">
+          <text pos="|0,|0" offset="-0.5,-0.5">用户退卡</text>
+        </page>
+        <page title="挂失">
+          <text pos="|0,|0" offset="-0.5,-0.5">挂失</text>
+        </page>
+        <page title="卡冲正">
+          <text pos="|0,|0" offset="-0.5,-0.5">卡冲正</text>
         </page>
       </tabctrl>
     </window>
