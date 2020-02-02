@@ -109,8 +109,8 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>$(SOUIPATH)\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>utilitiesd.lib;souid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SOUIPATH)\bin;$(ProjectDir)\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>utilitiesd.lib;souid.lib;MUR500USB.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ResourceCompile>

@@ -57,11 +57,12 @@
             <text pos="10,[5">商户私钥：</text>
             <edit name="custom_secret" pos="[0,0,-1,-0" margin="0" cueColor="rgb(255,0,0)"></edit>
           </window>
+          <button pos="-120,0,-0,30" name="btn_card_set_init">初始化</button>
         </page>
         <page title="制作设置卡">
           <window class="cls_edit" pos="10,[5,@300,@35" trackMouseEvent="1">
             <text pos="10,[5">区号：</text>
-            <edit name="card_set_region" pos="[0,0,-1,-0" margin="0" cueColor="rgb(255,0,0)"></edit>
+            <edit name="card_set_region" pos="[0,0,-1,-0" margin="0" cueColor="rgb(255,0,0)">1234</edit>
           </window>
           <window class="cls_edit" pos="10,[5,@300,@35" trackMouseEvent="1">
             <text pos="10,[5">常数：</text>
@@ -111,16 +112,60 @@
             <text pos="10,[5">流量计类型：</text>
             <edit name="card_set_flow_type" pos="[0,0,-1,-0" margin="0" cueColor="rgb(255,0,0)"></edit>
           </window>
-          <button pos="-80,0,-0,25" name="btn_card_set_make">制作</button>
+          <button pos="-120,0,-0,30" name="btn_card_set_make">制作</button>
         </page>
         <page title="制作清零卡">
           <text pos="|0,|0" offset="-0.5,-0.5">制作清零卡</text>
         </page>
         <page title="制作用户卡">
-          <text pos="|0,|0" offset="-0.5,-0.5">制作用户卡</text>
+          <window class="cls_edit" pos="10,[5,@300,@35" trackMouseEvent="1">
+            <text pos="10,[5">用户名称：</text>
+            <edit name="card_user_name" pos="[0,0,-1,-0" margin="0" cueColor="rgb(255,0,0)">anonymous</edit>
+          </window>
+          <window class="cls_edit" pos="10,[5,@300,@35" trackMouseEvent="1">
+            <text pos="10,[5">区号：</text>
+            <edit name="card_user_region" pos="[0,0,-1,-0" margin="0" cueColor="rgb(255,0,0)"></edit>
+          </window>
+          <window class="cls_edit" pos="10,[5,@300,@35" trackMouseEvent="1">
+            <text pos="10,[5">用户号：</text>
+            <edit name="card_user_id" pos="[0,0,-1,-0" margin="0" cueColor="rgb(255,0,0)"></edit>
+          </window>
+          <window class="cls_edit" pos="10,[5,@300,@35" trackMouseEvent="1">
+            <text pos="10,[5">补卡次数：</text>
+            <edit name="card_user_post_count" pos="[0,0,-1,-0" margin="0" cueColor="rgb(255,0,0)"></edit>
+          </window>
+          <window class="cls_edit" pos="10,[5,@300,@35" trackMouseEvent="1">
+            <text pos="10,[5">预置金额（元）：</text>
+            <edit name="card_user_preset_money" pos="[0,0,-1,-0" margin="0" cueColor="rgb(255,0,0)"></edit>
+          </window>
+          <window class="cls_edit" pos="10,[5,@300,@35" trackMouseEvent="1">
+            <text pos="10,[5">卡号（物理卡号）：</text>
+            <edit name="card_user_card_id" pos="[0,0,-1,-0" margin="0" cueColor="rgb(255,0,0)"></edit>
+          </window>
+          <window class="cls_edit" pos="10,[5,@300,@35" trackMouseEvent="1">
+            <text pos="10,[5">预留手机号：</text>
+            <edit name="card_user_preset_phone_number" pos="[0,0,-1,-0" margin="0" cueColor="rgb(255,0,0)"></edit>
+          </window>
+          <button pos="-120,0,-0,30" name="btn_card_user_make">制作用户卡</button>
         </page>
         <page title="用户充值">
-          <text pos="|0,|0" offset="-0.5,-0.5">用户充值</text>
+          <window class="cls_edit" pos="10,[5,@300,@35" trackMouseEvent="1">
+            <text pos="10,[5">已用总金额（元）：</text>
+            <edit name="card_user_use_money_total" pos="[0,0,-1,-0" margin="0" cueColor="rgb(255,0,0)">0.0</edit>
+          </window>
+          <window class="cls_edit" pos="10,[5,@300,@35" trackMouseEvent="1">
+            <text pos="10,[5">总充值金额（元）：</text>
+            <edit name="card_user_recharge_money_total" pos="[0,0,-1,-0" margin="0" cueColor="rgb(255,0,0)"></edit>
+          </window>
+          <window class="cls_edit" pos="10,[5,@300,@35" trackMouseEvent="1">
+            <text pos="10,[5">充值次数：</text>
+            <edit name="card_user_recharge_count" pos="[0,0,-1,-0" margin="0" cueColor="rgb(255,0,0)"></edit>
+          </window>
+          <window class="cls_edit" pos="10,[5,@300,@35" trackMouseEvent="1">
+            <text pos="10,[5">刷卡状态标记：</text>
+            <edit name="card_user_card_flag" pos="[0,0,-1,-0" margin="0" cueColor="rgb(255,0,0)"></edit>
+          </window>
+          <button pos="-120,0,-0,30" name="btn_card_user_recharge">用户充值</button>
         </page>
         <page title="用户换卡">
           <text pos="|0,|0" offset="-0.5,-0.5">用户换卡</text>
