@@ -29,3 +29,6 @@ Makefile
 **/lib/*
 *.pid
 build
+*.vs
+Debug
+Debug64

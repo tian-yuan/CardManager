@@ -81,6 +81,9 @@
     <ClInclude Include="STileViewEx.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="res\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\soui_res.rc2">

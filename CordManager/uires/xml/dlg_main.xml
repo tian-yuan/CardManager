@@ -1,4 +1,4 @@
-﻿<SOUI name="mainWindow" title="@string/title" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="600" height="500"  margin="5,5,5,5"  resizable="1" wndType="appMain"
+﻿<SOUI name="mainWindow" title="@string/title" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="800" height="800"  margin="5,5,5,5"  resizable="1" wndType="appMain"
 toolWindow="1"
 translucent="1" 
 >
@@ -11,17 +11,17 @@ translucent="1"
       <imgbtn name="btn_restore" skin="_skin.sys.btn.restore"  pos="-83,0" show="0" animate="1" />
       <imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-121,0" animate="1" />
       <group pos="2,30,@360,@69" colorLine1="#0795F4" colorLine2="#0795F4" headerHeight="0">
-        <radioex pos="0,0,@90,@69" id="10000" name="radioex_1" checked="1" skin="skin_tab_bkg">
+        <radioex pos="0,0,@90,@69" id="10000" name="radioex_main_1" checked="1" skin="skin_tab_bkg">
           <img pos="22,0" skin="skin_tab_card_manager" />
           <text pos="0,45,-0,-0" class="cls_titlebar_tab">卡管理</text>
         </radioex>
-        <radioex pos="[0,0,@90,@69" id="10001" name="radioex_2" skin="skin_tab_bkg">
+        <radioex pos="[0,0,@90,@69" id="10001" name="radioex_main_2" skin="skin_tab_bkg">
           <img pos="22,0" skin="skin_tab_card_manager" />
           <text pos="0,45,-0,-0" class="cls_titlebar_tab">用户管理</text>
         </radioex>
       </group>
     </caption>
-    <tabctrl name="tab_main" pos="1,100,-1,-1" animateSteps="10" tabHeight="0" cursel="0">
+    <tabctrl name="tab_main" pos="1,110,-1,-1" animateSteps="10" tabHeight="0" cursel="0">
       <page title="卡管理">
         <include src="LAYOUT:PAGE_CARD_MANAGER"/>
       </page>
