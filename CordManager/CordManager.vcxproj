@@ -86,7 +86,7 @@
     <IntDir>$(Configuration)64\</IntDir>
     <OutDir>$(SolutionDir)$(Configuration)64\</OutDir>
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\Workspace\soui\utilities\include;D:\Workspace\soui\components;D:\Workspace\soui\SOUI\include;D:\Workspace\soui\third-part;D:\Workspace\soui\config;$(IncludePath)</IncludePath>
+    <IncludePath>$(SOUIPATH)\utilities\include;$(SOUIPATH);$(SOUIPATH)\components;$(SOUIPATH)\SOUI\include;$(SOUIPATH)\third-part;$(SOUIPATH)\config;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IntDir>$(Configuration)64\</IntDir>
@@ -158,7 +158,7 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>$(SOUIPATH)\bin;$(SOUIPATH)\bin64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SOUIPATH)\bin64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>utilitiesd.lib;souid.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Windows</SubSystem>
     </Link>
@@ -196,8 +196,8 @@
     <Text Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\soui\controls.extend\SRadioBox2.cpp" />
     <ClCompile Include="CordManager.cpp" />
+    <ClCompile Include="D:\VsWorkspace\soui\controls.extend\SRadioBox2.cpp" />
     <ClCompile Include="MainDlg.cpp" />
     <ClCompile Include="SIconButton.cpp" />
     <ClCompile Include="SRadioEx.cpp" />

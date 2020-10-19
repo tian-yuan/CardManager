@@ -47,7 +47,7 @@
     <ClCompile Include="STileViewEx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\soui\controls.extend\SRadioBox2.cpp">
+    <ClCompile Include="D:\VsWorkspace\soui\controls.extend\SRadioBox2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
