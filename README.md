@@ -2,7 +2,7 @@
 
 
 
-![image-20201019191722719](C:\Users\hzliuzebo\AppData\Roaming\Typora\typora-user-images\image-20201019191722719.png)
+![image-20201019191722719](./imgs/card-manager.png)
 
 
 
